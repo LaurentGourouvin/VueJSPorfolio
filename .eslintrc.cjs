@@ -21,5 +21,15 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  rules: {
+    'no-var': 2,
+    'getter-return': 2,
+    'no-await-in-loop': 2,
+    'no-duplicate-imports': 2,
+    'no-self-compare': 2,
+    'no-unmodified-loop-condition': 2,
+    'block-scoped-var': 2,
+    camelCase:2 
   }
 }

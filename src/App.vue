@@ -4,23 +4,16 @@ import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
-    <header>
-        <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-        <div class="wrapper">
-            <HelloWorld msg="You did it!" />
-
-            <nav>
-                <RouterLink to="/">Home</RouterLink>
-                <RouterLink to="/about">About</RouterLink>
-            </nav>
-        </div>
-    </header>
-
-    <RouterView />
+    <v-app>
+        <v-main>
+            <header>
+                <p>Projet installé : Vue 3 - Pinia - Vue Router - Vuetify </p>
+            </header>
+        </v-main>
+    </v-app>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
     line-height: 1.5;
     max-height: 100vh;
